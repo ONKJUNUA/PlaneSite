@@ -2,6 +2,11 @@ let container = document.querySelector('.container');
 for (let i = 1; i<= 100; i++){
     let dot = document.createElement('div');
     dot.classList.add('element')
+    
+    if (i%10===0 || i%10===1 || i<10 || i>90) dot.classList.add('el2');
+    else if (i>33 && i<38 || i>43 && i<48 || i>53 && i<58 || i>63 && i<68) dot.classList.add('el');
+    else dot.classList.add('el1');
+   
     container.appendChild(dot);
 }
 

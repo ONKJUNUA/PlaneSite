@@ -154,9 +154,9 @@ section .content h2 .c{
 
 section .container{
     position: absolute;
-    margin-left: 50vw;
-    min-width: 400px;
-    width: 400px;
+    margin-left: 45vw;
+    min-width: 30%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,10 +165,18 @@ section .container{
 
 section .container .element{
     position: relative;
-    width: 40px;
-    height: 40px;
+    width: 3vw;
+    height: 3vw;
     background: #fff;
     scale: 0.75;
+}
+
+section .container .el1{
+    background: #00ccff;
+}
+
+section .container .el2{
+    background: #085696;
 }
 
 @keyframes background-pan{
