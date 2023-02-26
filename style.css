@@ -21,6 +21,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: .5s;
 }
 
 header .logo{
@@ -199,5 +200,33 @@ section .container .el2{
     }
     to{
         background-position: 200% center;
+    }
+}
+
+@media (max-width:1300px) {
+    section{
+        min-height: 1300px;
+        padding-left: 0px;
+        justify-content: center;
+    }
+    section .container{
+        margin-top: -760px;
+        margin-left: 0px;
+        min-width: 10%;
+        width: 200px;
+    }
+    section .container .element{
+        width: 20px;
+        height: 20px;
+    }
+    header ul{
+        color: #fff;
+        font-size: 0.8em;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+    }
+    header{
+        padding: 20px 20px;
     }
 }
