@@ -59,7 +59,7 @@ section{
     align-items: center;
     /*justify-content: center;*/
     min-height: 1000px;
-    padding: 200px;
+    padding-left: 200px;
     gap: 100px;
 }
 
@@ -83,18 +83,20 @@ section .content p{
 
 section .content .btn{
     display: flex;
+    border-radius: 15px;
     justify-content: center;
-    font-size: 2em;
+    background: #fff;
+    margin: 10px;
+    font-size: 2.5em;
     font-weight: 1000;
     text-decoration: none;
     margin-top: 50px;
-    margin-bottom: 30px;
-    color: #999;
+    color: #1b2130;
     transition: .5s;
 }
 
 section .content .btn:hover{
-    color: #fff;
+    letter-spacing: 0.2em;
 }
 
 section .content h2 .s{
