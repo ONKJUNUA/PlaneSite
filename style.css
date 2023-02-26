@@ -68,6 +68,10 @@ header ul a:hover::after{
     transform: scaleX(1);
 }
 
+header ul a.active::after{
+    background: #fff;
+}
+
 header ul a:hover,
 header ul a.active{
     color: #fff;
@@ -146,6 +150,25 @@ section .content h2 .c{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
+}
+
+section .container{
+    position: absolute;
+    margin-left: 50vw;
+    min-width: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section .container .element{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    transform: scale(0.75);
 }
 
 @keyframes background-pan{
