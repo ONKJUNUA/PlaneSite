@@ -168,7 +168,7 @@ section .container .element{
     width: 40px;
     height: 40px;
     background: #fff;
-    transform: scale(0.75);
+    scale: 0.75;
 }
 
 @keyframes background-pan{
