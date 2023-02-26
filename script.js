@@ -20,5 +20,23 @@ let animation = anime.timeline({
 animation.add({
     rotateZ: 180,
     translateY: anime.stagger(-20, {grid:[10,10], from: 'center', axis:'y'}),
-    translateX: anime.stagger(-20, {grid:[10,10], from: 'center', axis:'x'})
+    translateX: anime.stagger(-20, {grid:[10,10], from: 'center', axis:'x'}),
+    opacity: 1,
+})
+.add({
+    borderRadius: 50,
+})
+.add({
+    scale: 0.2,
+    opacity: 0.8,
+})
+animation.add({
+    rotateZ: 180,
+    translateY: anime.stagger(0, {grid:[10,10], from: 'center', axis:'y'}),
+    translateX: anime.stagger(0, {grid:[10,10], from: 'center', axis:'x'}),
+    opacity: 1,
+})
+.add({
+    scale: 1,
+    borderRadius: 0,
 })
