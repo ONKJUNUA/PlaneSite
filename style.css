@@ -9,12 +9,12 @@
 
 body{
     min-height: 100vh;
-    background: #1b2130;
+    background: linear-gradient(to bottom, #1b2130 10%, #043055 100%);
     overflow: hidden;
 }
 
 header{
-    background-color: #1b2130;
+    background-color: transparent;
     position: fixed;
     padding: 30px 50px;
     width: 100%;
