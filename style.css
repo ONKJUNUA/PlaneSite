@@ -10,7 +10,7 @@
 body{
     min-height: 100vh;
     background: linear-gradient(to bottom,
-    #1b2130, #043055,#1b2130, #043055,#1b2130,#043055,#1b2130,#043055,#1b2130);
+    #111, #043055,#111, #4a0964,#111,#72370f,#111,#184d0b,#111);
     overflow: hidden;
 }
 
@@ -129,7 +129,7 @@ section .content .btn:hover{
     letter-spacing: 0.2em;
 }
 
-section .content h2 .s{
+section .content h2 .s1{
     animation: background-pan 2s linear infinite;
     background: linear-gradient(
         to right,
@@ -144,13 +144,103 @@ section .content h2 .s{
     white-space: nowrap;
 }
 
-section .content h2 .c{
+section .content h2 .c1{
     animation: background-pan2 2s linear infinite;
     background: linear-gradient(
         to right,
         #00ccff,
         #085696,
         #00ccff
+    );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+section .content h2 .s2{
+    animation: background-pan 2s linear infinite;
+    background: linear-gradient(
+        to right,
+        #921ed4,
+        #e66aff,
+        #921ed4
+    );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+section .content h2 .c2{
+    animation: background-pan2 2s linear infinite;
+    background: linear-gradient(
+        to right,
+        #e66aff,
+        #921ed4,
+        #e66aff
+    );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+section .content h2 .s3{
+    animation: background-pan 2s linear infinite;
+    background: linear-gradient(
+        to right,
+        #e93600,
+        #ffae00,
+        #e93600
+    );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+section .content h2 .c3{
+    animation: background-pan2 2s linear infinite;
+    background: linear-gradient(
+        to right,
+        #ffae00,
+        #e93600,
+        #ffae00
+    );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+section .content h2 .s4{
+    animation: background-pan 2s linear infinite;
+    background: linear-gradient(
+        to right,
+        #0b7c1e,
+        #00ff88,
+        #0b7c1e
+    );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+section .content h2 .c4{
+    animation: background-pan2 2s linear infinite;
+    background: linear-gradient(
+        to right,
+        #00ff88,
+        #0b7c1e,
+        #00ff88
     );
     background-size: 200%;
     background-clip: text;
@@ -184,6 +274,30 @@ section .container .el1{
 
 section .container .el2{
     background: #085696;
+}
+
+section .container .el3{
+    background: #e66aff;
+}
+
+section .container .el4{
+    background: #921ed4;
+}
+
+section .container .el5{
+    background: #ffae00;
+}
+
+section .container .el6{
+    background: #e93600;
+}
+
+section .container .el7{
+    background: #00ff88;
+}
+
+section .container .el8{
+    background: #0b7c1e;
 }
 
 @keyframes background-pan{

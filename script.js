@@ -14,21 +14,21 @@ for(let j = 1; j<=4; j++){
         }
         if (j===2){
             dot.classList.add('element2')
-            if (i%10===0 || i%10===1 || i<10 || i>90) dot.classList.add('el2');
+            if (i%10===0 || i%10===1 || i<10 || i>90) dot.classList.add('el4');
             else if (i>33 && i<38 || i>43 && i<48 || i>53 && i<58 || i>63 && i<68) dot.classList.add('el');
-            else dot.classList.add('el1');
+            else dot.classList.add('el3');
         }
         if (j===3){
             dot.classList.add('element3')
-            if (i%10===0 || i%10===1 || i<10 || i>90) dot.classList.add('el2');
+            if (i%10===0 || i%10===1 || i<10 || i>90) dot.classList.add('el6');
             else if (i>33 && i<38 || i>43 && i<48 || i>53 && i<58 || i>63 && i<68) dot.classList.add('el');
-            else dot.classList.add('el1');
+            else dot.classList.add('el5');
         }
         if (j===4){
             dot.classList.add('element4')
-            if (i%10===0 || i%10===1 || i<10 || i>90) dot.classList.add('el2');
+            if (i%10===0 || i%10===1 || i<10 || i>90) dot.classList.add('el8');
             else if (i>33 && i<38 || i>43 && i<48 || i>53 && i<58 || i>63 && i<68) dot.classList.add('el');
-            else dot.classList.add('el1');
+            else dot.classList.add('el7');
         }
         container.appendChild(dot);
     }
