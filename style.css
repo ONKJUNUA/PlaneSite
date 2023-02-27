@@ -9,7 +9,8 @@
 
 body{
     min-height: 100vh;
-    background: linear-gradient(to bottom, #1b2130 10%, #043055 100%);
+    background: linear-gradient(to bottom,
+    #1b2130, #043055,#1b2130, #043055,#1b2130,#043055,#1b2130,#043055,#1b2130);
     overflow: hidden;
 }
 
@@ -169,7 +170,7 @@ section .container{
     flex-wrap: wrap;
 }
 
-section .container .element{
+section .container .element, .element2, .element3, .element4{
     position: relative;
     width: 3vw;
     height: 3vw;
@@ -215,7 +216,7 @@ section .container .el2{
         min-width: 10%;
         width: 200px;
     }
-    section .container .element{
+    section .container .element, .element2, .element3, .element4{
         width: 20px;
         height: 20px;
     }
