@@ -49,9 +49,10 @@ animation.add({
     rotateZ: 180,
     translateY: anime.stagger(-20, {grid:[10,10], from: 'center', axis:'y'}),
     translateX: anime.stagger(-20, {grid:[10,10], from: 'center', axis:'x'}),
+    borderRadius: 50,
 })
 .add({
-    borderRadius: 50,
+    borderRadius: 0,
 })
 .add({
     scale: 0.2,
