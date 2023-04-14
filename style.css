@@ -11,6 +11,7 @@ body{
     min-height: 100vh;
     background: linear-gradient(to bottom,
     #111, #043055,#111, #4a0964,#111,#72370f,#111,#184d0b,#111);
+    overflow-x: hidden;
 }
 
 header{
@@ -86,7 +87,6 @@ header ul a.active{
 section{
     display: flex;
     align-items: center;
-    /*justify-content: center;*/
     min-height: 1000px;
     padding-left: 200px;
     gap: 100px;
@@ -252,7 +252,7 @@ section .container{
     position: absolute;
     margin-left: 45vw;
     min-width: 30%;
-    width: 30%;
+    width: 33%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,11 +260,11 @@ section .container{
 }
 
 section .container .element, .element2, .element3, .element4{
-    position: absolute;
+    position: relative;
     width: 3vw;
     height: 3vw;
     background: #fff;
-    scale: 0.75;
+    scale: 1;
 }
 
 section .container .el1{
@@ -327,11 +327,11 @@ section .container .el8{
         margin-top: -760px;
         margin-left: 0px;
         min-width: 10%;
-        width: 200px;
+        width: 15vw;
     }
     section .container .element, .element2, .element3, .element4{
-        width: 20px;
-        height: 20px;
+        width: 1.5vw;
+        height: 1.5vw;
     }
     header ul{
         color: #fff;
@@ -344,3 +344,15 @@ section .container .el8{
         padding: 20px 20px;
     }
 }
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:#333;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
